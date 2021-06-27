@@ -1,0 +1,6 @@
+#!/bin/bash
+#virtualenv env
+source env/bin/activate
+#pip install -r requirements.txt
+gunicorn app:server -w 1 -b :5005 --daemon
+#heroku local web -p 5005 > logs_heroku.log &
