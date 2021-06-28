@@ -63,3 +63,16 @@ def predict_from_sentenca(sentencas, model, tokenizer):
     y = model(X)
     y_ = tf.math.argmax( y['logits'], axis=1 ).numpy()   
     return y_
+
+def predict_from_dataset(X, model):
+    """Esta função recebe um array de sentenças e um modelo BERT e retorna o valor predito.
+
+    Parameters:
+    sentences (array): conjunto de palavras    
+    bert_model (function): modelo BERT
+    Returns:
+    array: um array de valores de scores
+    """    
+    y = model(X)
+    y_ = tf.math.argmax( y['logits'], axis=1 ).numpy()   
+    return y_
