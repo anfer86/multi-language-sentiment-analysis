@@ -7,7 +7,7 @@ Este projeto tem como objetivos explorar:
 
 ## Demonstração
 
-![Exemplos de uso da aplicação](../master/app/front-end/telas.png)
+![Exemplos de uso da aplicação](telas.png)
 
 ## Instalação
 
