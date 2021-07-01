@@ -7,14 +7,14 @@
 </head>
 
 <body>
-    <div class="container col-4">
-        <h3>Escreva a sua revisão e deixe o modelo predizer se é negativa ou positiva.</h3>
+    <div class="container col-8">        
+        <h4>Análise de Sentimento Usando o Modelo BERT Multilíngue</h4>
         <form>           
             <div class="form-group">
-                <label for="review">Escreva sua revisão (em inglês ou português):</label>
-                <textarea class="form-control" rows="5" id="review" placeholder="Example: This film was amazing!"></textarea>
+                <label for="review">Escreva sua revisão de aplicativo deixe o modelo predizer se é negativa ou positiva:</label>
+                <textarea class="form-control" rows="5" id="review" placeholder="Example: This is the best app I've ever tried!"></textarea>
             </div>
-            <button type="button" class="btn btn-success" id="enviar">Enviar</button>
+            <button type="button" class="btn btn-success" id="enviar">Predizer</button>
         </form>
             <div class="text-light mt-4 text-center p-1">                
                 <p id="result"></p>                
